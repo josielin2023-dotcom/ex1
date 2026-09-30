@@ -1,0 +1,98 @@
+body {
+    background-color: #cee0ec;
+    color: #333;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+}
+
+.課程作業網站 {
+    font-size: 60px;padding: 20px;
+    color: #c2daf5fb;border-style: dotted;
+    border-color: #2d5ff2;
+    border-radius: 30px;
+    text-shadow: 2px 2px 5px rgb(1, 48, 66);
+    background-color: #f9f9f9;
+    
+}
+
+.平時作業 {
+    font-size: 40px;
+    color: #1280c0;border-style: double;
+    border-radius: 10px;background-color: #f9f9f9;
+}
+p {
+    font-size: 20px;color: #c5593b
+}
+
+h2 {
+    font-size: 40px;
+    color: #37bcaf;
+}
+
+h3 {
+    font-size: 20px;
+    color: #06b8d7;display:inline
+}
+
+nav a{display: inline-block;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+    background-color: #f9f9f9;
+    border: 3px solid #4789da;
+    border-radius: 30px;
+    text-decoration: none;
+   
+}
+
+nav a:hover {
+    background-color: #e3e31e;
+    color: #ffde0b;
+}
+
+section {
+   width:100%;
+   margin:auto;
+}
+article { display: inline-block;
+    text-align: center;width: 300px;
+    margin: 1px;
+    padding: 10px;
+    border: 1px solid #fc0606;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    border-radius:50%;
+}
+
+article a {display: inline-block;
+    color: #f7f6ef;
+    background-color: #edede3;
+    text-decoration: none;
+    padding-bottom: 10px;
+
+
+
+    
+  
+}
+
+article a:hover {
+    color: #e3e31e;
+    background-color: #ffde0b;
+}
+bolder {
+    font-weight: bold;
+}
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ccc;
+}
