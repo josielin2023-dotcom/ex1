@@ -85,7 +85,7 @@ article a {display: inline-block;
 
 article a:hover {
     color: #e3e31e;
-    background-color: #ffde0b;
+    background-color: #ff0b0b;
 }
 bolder {
     font-weight: bold;
