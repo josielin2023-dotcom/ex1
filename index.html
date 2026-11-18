@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -25,34 +28,67 @@
 
     <h1 class="平時作業">平時作業</h1>
 
-    <section>
+    <div class="gallery">
+    <button class="arrow prev" aria-label="上一頁">&#10094;</button>
 
+    <div class="viewport">
+        <section class="track">
 
-        <article class="article">
-            <a href="https://ex2-nu-lake.vercel.app/"  title="goes to 作業一">
-                <h2>10/14</h2>
-                <p>作業一</p>
-                <img src="g2.jpg" alt="arts">
-            </a>
-        </article>
+            <article class="article">
+                <a href="https://ex2-nu-lake.vercel.app/" title="goes to 作業一">
+                    <h2>10/14</h2>
+                    <p>作業一</p>
+                    <img src="g2.jpg" alt="arts">
+                </a>
+            </article>
 
-        <article class="article">
-            <a href="https://ex3-beta.vercel.app"  title="goes to 作業二">
-                <h2>10/21</h2>
-                <p>作業二</p>
-                <img src="g3.jpg" alt="arts">
-            </a>
-        </article>
+            <article class="article">
+                <a href="https://ex3-beta.vercel.app" title="goes to 作業二">
+                    <h2>10/21</h2>
+                    <p>作業二</p>
+                    <img src="g3.jpg" alt="arts">
+                </a>
+            </article>
 
-        <article class="article">
-            <a href="https://flexbox-drab-phi.vercel.app"  title="goes to 作業三">
-                <h2>10/28</h2>
-                <p>作業三</p>
-                <img src="g4.jpg" alt="arts">
-            </a>
-        </article>
+            <article class="article">
+                <a href="https://flexbox-drab-phi.vercel.app" title="goes to 作業三">
+                    <h2>10/28</h2>
+                    <p>作業三</p>
+                    <img src="g4.jpg" alt="arts">
+                </a>
+            </article>
 
-    </section>
+            <article class="article">
+                <a href="https://ex4-1-taupe.vercel.app" title="goes to 作業四">
+                    <h2>11/18</h2>
+                    <p>作業四</p>
+                    <img src="gg1.jpg" alt="arts">
+                </a>
+            </article>
+
+            <article class="article">
+                <a href="#" title="goes to 作業五">
+                    <h2>11/25</h2>
+                    <p>作業五</p>
+                    <img src="tb1.jpg" alt="arts">
+                </a>
+            </article>
+
+            <article class="article">
+                <a href="#" title="goes to 作業六">
+                    <h2>12/02</h2>
+                    <p>作業六</p>
+                    <img src="tb1.jpg" alt="arts">
+                </a>
+            </article>
+
+        </section>
+    </div>
+
+    <button class="arrow next" aria-label="下一頁">&#10095;</button>
+</div>
+
+<div class="dots"></div>
 
     <hr>
     <footer>&copy; 2026 課程作業網站. All Rights Reserved.</footer>
